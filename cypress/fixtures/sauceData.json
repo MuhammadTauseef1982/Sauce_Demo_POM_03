@@ -1,0 +1,52 @@
+{
+ "baseURL":
+ {
+    "mainURL":"https://www.saucedemo.com/v1/",
+    "inventoryURL":"inventory.html",
+    "custInfoPageURL":"checkout-step-one.html"
+ },
+    "Locators":
+    {
+        
+        "usernameLoc" : "[data-test='username']",
+        "passwordLoc" : "[data-test='password']",
+        "loginLoc" : "#login-button",
+        "multipeLoginLoc":"#login_credentials > h4",
+        "inventPageHeaderLoc":".product_label",
+        "sortingCartLoc" : "#inventory_filter_container select",
+        "ShoppingTitleLoc":".product_label",
+        "addCartLoc": ":nth-child(1) > .pricebar > .btn_primary",
+        "CartLoc": "#shopping_cart_container > a > span",
+        "allitem":".inventory_item",
+        "allAddtoCart":"button",
+        "shopCartLoc":"#shopping_cart_container > a > span",
+        "CheckoutLoc":"#cart_contents_container > div > div.cart_footer > a.btn_action.checkout_button",
+        "yourCartLoc":".subheader",
+        "custInfoPageLoc":".subheader",
+        "firstnameLoc":"[data-test='firstName']",
+        "lastnameLoc":"[data-test='lastName']",
+        "postalcodeLoc" :"[data-test='postalCode']",
+        "confirmationLoc":".btn_primary",
+        "completeShoppingLoc": ".btn_action",
+        "EndshoppingLoc":".complete-header"
+            
+    },
+    "Data":
+    {
+        "usernamedata" :"standard_user",
+        "passworddata" :"secret_sauce",
+        "multipeLogindata":"Accepted usernames are:",
+        "inventPageHeaderdata":"Products",
+        "sortingCartdata" :"Price (low to high)",
+        "ShoppingTitledata":"Products",
+        "yourCartdata":"Your Cart",
+        "custInfoPagedata":"Checkout: Your Information",
+        "firstnamedata": "Tauseef",
+        "lastnamedata": "Amin",
+        "postalcodedata" :"74000",
+        "checkoutCompdata":"Checkout: Overview",
+        "Endshoppingdata":"THANK YOU FOR YOUR ORDER"
+   
+
+    }
+}
